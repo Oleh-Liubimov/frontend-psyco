@@ -7,7 +7,9 @@ export default function Header({}: HeaderProps) {
   return (
     <header>
       <div>
-        <Link href="/">psychologists.services</Link>
+        <Link href="/">
+          <span className="text-primary ">psychologists</span>.services
+        </Link>
         <nav></nav>
       </div>
     </header>

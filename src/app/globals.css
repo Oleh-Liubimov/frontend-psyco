@@ -6,7 +6,8 @@
   --background: #ffffff;
   --foreground: #171717;
   --primary: #54be96;
-  --secondary: #191a15;
+  --dark-secondary: #191a15;
+  --background: #fbfbfb;
 }
 
 @media (prefers-color-scheme: dark) {

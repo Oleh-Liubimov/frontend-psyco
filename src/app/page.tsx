@@ -1,7 +1,5 @@
-import Image from "next/image";
+import "./globals.css";
 
 export default function Home() {
-  return (
-    
-  );
+  return <div className="font-bold">Home</div>;
 }
