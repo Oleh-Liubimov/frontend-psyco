@@ -29,13 +29,27 @@ export default function Home() {
             Get started <MoveUpRight />{" "}
           </Button>
         </div>
-        <div>
+        <div className="relative">
           <Image
             src="/images/hero_image_main.png"
             width={464}
             height={526}
             alt="Hero image"
             className="rounded-[10px]"
+          />
+          <Image
+            src="/images/block.png"
+            alt="hero-img"
+            width={311}
+            height={118}
+            className="absolute top-[340px] left-[-100px]"
+          />
+          <Image
+            src="/images/contacts_image.png"
+            alt="hero-img"
+            width={59}
+            height={59}
+            className="absolute top-12 right-[-40px]"
           />
         </div>
       </div>
