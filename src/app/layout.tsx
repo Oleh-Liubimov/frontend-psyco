@@ -15,8 +15,8 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" className="w-full h-full">
-      <body className=" bg-white w-full h-full mx-auto">
-        <div className="max-w-[1440px] mx-auto h-screen">
+      <body className=" bg-white max-w-[1440px] w-full h-full mx-auto">
+        <div className=" mx-auto h-screen">
           <div>
             <Header />
             <Separator className="absolute left-0 w-screen mt-5"></Separator>

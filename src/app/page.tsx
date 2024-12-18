@@ -1,31 +1,41 @@
 import Image from "next/image";
 import "./globals.css";
+import { Button } from "@/components/ui/button";
+import { MoveUpRight } from "lucide-react";
 
 export default function Home() {
   return (
-    <main className="font-bold">
-      <div>
-        <div>
+    <main className=" pt-44 px-32 ">
+      <div className="flex gap-10 justify-between">
+        <div className="pt-14">
           <h1 className="font-semibold text-7xl">
             The road to the
-            <span className="text-primary font-semibold text-7xl">
+            <br />
+            <span className="text-primary font-semibold text-7xl italic">
               {" "}
               depths{" "}
-            </span>{" "}
-            of the human soul
+            </span>
+            of the
+            <br />
+            human soul
           </h1>
-          <span className="font-medium text-lg">
-            We help you to reveal your potential, overcome challenges and find a
-            guide in your own life with the help of our experienced
-            psychologists.
+          <span className="font-medium text-lg pt-5 block">
+            We help you to reveal your potential, overcome challenges <br /> and
+            find a guide in your own life with the help of our <br />{" "}
+            experienced psychologists.
           </span>
+          <Button className="hover:bg-emerald-500 rounded-3xl py-6 px-10 font-medium text-xl mt-5">
+            {" "}
+            Get started <MoveUpRight />{" "}
+          </Button>
         </div>
         <div>
           <Image
-            src="/public/images/hero_image_main.png"
+            src="/images/hero_image_main.png"
             width={464}
             height={526}
             alt="Hero image"
+            className="rounded-[10px]"
           />
         </div>
       </div>
