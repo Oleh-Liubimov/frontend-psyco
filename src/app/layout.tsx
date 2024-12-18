@@ -16,13 +16,13 @@ export default function RootLayout({
   return (
     <html lang="en" className="w-full h-full">
       <body className=" bg-white w-full h-full mx-auto">
-        <main className="max-w-[1440px] mx-auto h-screen">
+        <div className="max-w-[1440px] mx-auto h-screen">
           <div>
             <Header />
             <Separator className="absolute left-0 w-screen mt-5"></Separator>
           </div>
           {children}
-        </main>
+        </div>
       </body>
     </html>
   );
